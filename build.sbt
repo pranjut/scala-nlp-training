@@ -1,9 +1,8 @@
-name := "scala-nlp-training"
+name := "scala-coursera-training"
 
 version := "1.0"
 
 scalaVersion := "2.11.8"
-
 
 libraryDependencies  ++= Seq(
   // Last stable release
@@ -19,6 +18,3 @@ libraryDependencies  ++= Seq(
   // It depends on LGPL code
   "org.scalanlp" %% "breeze-viz" % "0.12"
 )
-
-
-resolvers += "Sonatype Releases" at "https://oss.sonatype.org/content/repositories/releases/"
